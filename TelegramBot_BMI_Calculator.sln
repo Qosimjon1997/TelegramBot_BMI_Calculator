@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot_BMI_Calculator", "TelegramBot_BMI_Calculator\TelegramBot_BMI_Calculator.csproj", "{A0E00739-C415-43A4-9339-285AA08A6DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0E00739-C415-43A4-9339-285AA08A6DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E00739-C415-43A4-9339-285AA08A6DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E00739-C415-43A4-9339-285AA08A6DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E00739-C415-43A4-9339-285AA08A6DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56CCD92F-DA7E-46A8-A014-DFCD3D2A3C4A}
+	EndGlobalSection
+EndGlobal
