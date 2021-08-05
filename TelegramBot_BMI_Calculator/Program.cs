@@ -1,23 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Telegram.Bot;
-using Telegram.Bot.Args;
-using Telegram.Bot.Types;
-using Telegram.Bot.Types.Enums;
-using Telegram.Bot.Types.InlineQueryResults;
-using Telegram.Bot.Types.InputFiles;
-using Telegram.Bot.Types.ReplyMarkups;
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using Telegram.Bot.Args;
-using Telegram.Bot.Types.Enums;
 using TelegramBot_BMI_Calculator.Data;
 using TelegramBot_BMI_Calculator.Models;
 
@@ -39,15 +22,6 @@ namespace TelegramBot_BMI_Calculator
             client.StopReceiving();
 
         }
-
-
-/*
-        private static int stack;
-        private static string s1 = "";
-        private static string s2 = "";
-        private static string s3 = "";
-        private static string s4 = "";*/
-        //Mine funksion
 
         private static string myFuncStart(string _id)
         {
