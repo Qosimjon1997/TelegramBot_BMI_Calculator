@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TelegramBot_BMI_Calculator.Models;
 
 namespace TelegramBot_BMI_Calculator.Data
@@ -12,12 +7,12 @@ namespace TelegramBot_BMI_Calculator.Data
     {
         public ApplicationDbContext()
         {
-            Database.EnsureCreated();
+            
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=;Database=TelBot_BMI_Calc;User Id=; Password=;");
+            optionsBuilder.UseNpgsql(@"User Id=postgres; Password=123456789_Qwert; Server=localhost; Port=5432;Database=BMI_Telegram_Bot;Integrated Security=true;Pooling=true;");
         }
         public DbSet<BMI> BMIs { get; set; }
         public DbSet<myTest> MyTests { get; set; }
